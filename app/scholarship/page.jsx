@@ -1,9 +1,12 @@
-import React from 'react'
 
-const ScholarshipPage = () => {
+import ScholarshipPage from "@/components/shared/ScholarshipPage/ScholarshipPage"
+
+const Scholarship = () => {
   return (
-    <div>ScholarshipPage</div>
-  )
-}
+    <div className="flex items-center justify-center m-10">
+    <ScholarshipPage />
+    </div>
+  );
+};
 
-export default ScholarshipPage
+export default Scholarship;
