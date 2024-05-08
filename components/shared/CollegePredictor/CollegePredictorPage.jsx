@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import getConstants from "@/constants";
-import { addUser } from "@/lib/utils";
+import { addUser } from "@/app/lib/utils";
 
 const CollegePredictorPage = () => {
   const [selectedExam, setSelectedExam] = useState(null);
@@ -114,9 +114,11 @@ const CollegePredictorPage = () => {
               ))}
             </select>
           </div>
-          <button type="submit" class="bg-transparent mt-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <div className="flex justify-center items-center">
+          <button type="submit" class="bg-transparent mt-4 hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded ">
             Submit
           </button>
+          </div >
         </form>
       </div>
     </div>

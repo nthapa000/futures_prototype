@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import getConstants from "@/constants";
-import { submitForm } from "@/lib/utils";
+import { submitForm } from "@/app/lib/utils";
 
 const ScholarshipPage = () => {
   const [selectedExam, setSelectedExam] = useState(null);
